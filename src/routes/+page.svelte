@@ -5,7 +5,7 @@
 <Header />
 <main>
 	<div class="center-container">
-		<img class="main-img" src="nahaba_main_1x1.jpg" alt="main img" />
+		<img class="main-img" src="/nahaba_main_1x1.jpg" alt="main img" />
 		<a class="listen-now" href="https://song.link/nahaba_glasss" target="_blank">Listen now</a>
 	</div>
 </main>
@@ -19,6 +19,10 @@
 		width: 100%;
 		max-width: 2500px;
 		position: relative;
+
+		@media (max-width: 1000px) {
+			justify-content: flex-start;
+		}
 	}
 	.center-container {
 		display: flex;
@@ -30,11 +34,23 @@
 		gap: 32px;
 		top: 50%;
 		left: 50%;
+
+		@media (max-width: 1000px) {
+			position: relative;
+			transform: none;
+			top: auto;
+			left: auto;
+			width: 100%;
+		}
 	}
 	.main-img {
 		width: 30vw;
 		min-width: 450px;
 		max-width: 700px;
+		@media (max-width: 1000px) {
+			width: 100vw;
+			min-width: 0;
+		}
 	}
 	.listen-now {
 		font-size: 18px;
@@ -53,10 +69,19 @@
 	}
 	:global(body) {
 		height: 100svh;
-		background-image: url('bg.png');
+		background-image: url('/bg.png');
 		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-color: black;
+		background-size: cover;
+		background-position: center center;
 		display: flex;
 		justify-content: center;
+
+		@media (max-width: 1000px) {
+			flex-direction: column;
+			justify-content: flex-start;
+		}
 	}
 	:global(html) {
 		box-sizing: border-box;
