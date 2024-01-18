@@ -19,7 +19,6 @@
 	.video-container {
 		width: 100%;
 		aspect-ratio: 16/9;
-		padding-bottom: 64px;
 
 		@media (min-width: 1000px) {
 			width: 70%;

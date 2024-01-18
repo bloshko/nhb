@@ -36,7 +36,12 @@
 		display: flex;
 		align-items: center;
 		flex-direction: column;
-		gap: 128px;
+		gap: 32px;
 		width: 100%;
+		padding-bottom: 64px;
+
+		@media (min-width: 700px) {
+			gap: 128px;
+		}
 	}
 </style>
