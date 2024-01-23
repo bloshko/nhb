@@ -6,6 +6,7 @@
 <main>
 	<slot />
 </main>
+<div class="background-gradient" />
 
 <style>
 	main {
@@ -15,6 +16,13 @@
 		width: 100%;
 		max-width: 2500px;
 		position: relative;
+	}
+	.background-gradient {
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%);
+		z-index: -2;
 	}
 	:global(body) {
 		min-height: 100svh;
@@ -34,6 +42,7 @@
 		color: white;
 	}
 	:global(*) {
+		line-height: 0;
 		box-sizing: border-box;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		margin: 0;
