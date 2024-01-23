@@ -1,5 +1,10 @@
 <script lang="ts">
 	import Head from '$lib/Head.svelte';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		document.body.style.overflowY = 'hidden';
+	});
 </script>
 
 <Head />
@@ -70,8 +75,5 @@
 		background-color: #f20523;
 		color: black;
 		transition: all 0.5s;
-	}
-	:global(body) {
-		overflow-y: hidden;
 	}
 </style>

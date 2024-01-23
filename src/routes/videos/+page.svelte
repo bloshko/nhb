@@ -1,5 +1,10 @@
 <script>
 	import YoutubeVideo from '$lib/YoutubeVideo.svelte';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		document.body.style.overflowY = 'visible';
+	});
 
 	const videos = [
 		{
