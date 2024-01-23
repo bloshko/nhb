@@ -49,6 +49,7 @@
 		left: 0;
 		transform: translateY(100%);
 		z-index: -1;
+		filter: brightness(0.8);
 	}
 	img {
 		width: 100%;

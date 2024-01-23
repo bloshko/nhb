@@ -18,7 +18,7 @@
 		position: relative;
 	}
 	.background-gradient {
-		position: absolute;
+		position: fixed;
 		width: 100vw;
 		height: 100vh;
 		background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%);
