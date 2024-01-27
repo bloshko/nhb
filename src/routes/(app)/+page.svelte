@@ -21,8 +21,8 @@
 </div>
 
 <div class="tpose-container">
-	<TPose src="/gifs/a-tpose.gif" />
-	<TPose src="/gifs/o-tpose.gif" />
+	<TPose src="/gifs/a-tpose.gif" character="A" />
+	<TPose src="/gifs/o-tpose.gif" character="O" />
 </div>
 
 <style>

@@ -33,6 +33,7 @@
 		background-color: black;
 		background-size: cover;
 		background-position: center center;
+		margin: 0;
 
 		grid-template-rows: 20vh 5fr;
 		display: grid;
