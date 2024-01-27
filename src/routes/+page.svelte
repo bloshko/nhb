@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Head from '$lib/Head.svelte';
+	import TPose from '$lib/TPose.svelte';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -19,7 +20,17 @@
 	<a class="listen-now" href="https://song.link/nahaba_glasss" target="_blank">Listen now</a>
 </div>
 
+<div class="tpose-container">
+	<TPose src="/gifs/a-tpose.gif" />
+	<TPose src="/gifs/o-tpose.gif" />
+</div>
+
 <style>
+	.tpose-container {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
 	.center-container {
 		display: flex;
 		flex-direction: column;

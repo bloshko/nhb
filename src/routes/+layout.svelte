@@ -16,6 +16,7 @@
 		width: 100%;
 		max-width: 2500px;
 		position: relative;
+		justify-self: center;
 	}
 	.background-gradient {
 		position: fixed;
