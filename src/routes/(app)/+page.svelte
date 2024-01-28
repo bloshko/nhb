@@ -27,9 +27,14 @@
 
 <style>
 	.tpose-container {
+		bottom: 0;
 		display: flex;
 		width: 100%;
 		justify-content: space-between;
+
+		@media (min-width: 700px) {
+			position: fixed;
+		}
 	}
 	.center-container {
 		display: flex;
