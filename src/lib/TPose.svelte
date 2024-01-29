@@ -13,4 +13,11 @@
 	a {
 		cursor: pointer;
 	}
+	img {
+		width: 110px;
+
+		@media (min-width: 700px) {
+			width: 150px;
+		}
+	}
 </style>

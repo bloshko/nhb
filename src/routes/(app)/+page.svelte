@@ -54,7 +54,7 @@
 		position: relative;
 		line-height: 0;
 
-		width: 100vw;
+		width: 80vw;
 		@media (min-width: 700px) {
 			width: 80vw;
 		}
