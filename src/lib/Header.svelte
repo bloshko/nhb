@@ -1,5 +1,9 @@
+<script>
+	import nahabaLogoSVG from '$lib/assets/nahaba_logo.svg';
+</script>
+
 <header>
-	<a href="/"><img src="/nahaba_logo.svg" alt="nahaba logo" width="64" /></a>
+	<a href="/"><img src={nahabaLogoSVG} alt="nahaba logo" width="64" /></a>
 	<nav>
 		<a href="/">HOME</a>
 		<a href="/videos">VIDEOS</a>

@@ -1,6 +1,12 @@
 <script lang="ts">
 	import Head from '$lib/Head.svelte';
 	import TPose from '$lib/TPose.svelte';
+
+	import aTPoseGIF from '$lib/assets/gifs/a-tpose.gif';
+	import oTPoseGIF from '$lib/assets/gifs/o-tpose.gif';
+	import nahabaMainJPG from '$lib/assets/nahaba_main_1x1.jpg';
+	import bloodMP4 from '$lib/assets/blood.mp4';
+
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -12,17 +18,17 @@
 
 <div class="center-container">
 	<div class="image-container">
-		<img src="/nahaba_main_1x1.jpg" alt="main img" />
+		<img src={nahabaMainJPG} alt="main img" />
 		<video id="blood-video" muted playsinline autoplay loop>
-			<source src="/blood.mp4" />
+			<source src={bloodMP4} />
 		</video>
 	</div>
 	<a class="listen-now" href="https://song.link/nahaba_glasss" target="_blank">Listen now</a>
 </div>
 
 <div class="tpose-container">
-	<TPose src="/gifs/a-tpose.gif" character="A" />
-	<TPose src="/gifs/o-tpose.gif" character="O" />
+	<TPose src={aTPoseGIF} character="A" />
+	<TPose src={oTPoseGIF} character="O" />
 </div>
 
 <style>
