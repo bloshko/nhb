@@ -54,6 +54,12 @@
 		position: relative;
 		line-height: 0;
 
+		width: 80vw;
+
+		@media (min-width: 700px) {
+			width: 80vw;
+		}
+
 		@media (min-width: 1000px) {
 			width: 30vw;
 		}
