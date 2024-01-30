@@ -18,7 +18,7 @@
 
 <div class="center-container">
 	<div class="image-container">
-		<img src={nahabaMainJPG} alt="main img" />
+		<img src={nahabaMainJPG} alt="Members of NAHABA band" />
 		<video id="blood-video" muted playsinline autoplay loop>
 			<source src={bloodMP4} />
 		</video>

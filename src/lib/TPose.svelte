@@ -5,7 +5,7 @@
 
 <div>
 	<a href={`/game?character=${character}`}>
-		<img {src} alt="tpose character link" />
+		<img {src} alt="Game character tpose animation" />
 	</a>
 </div>
 

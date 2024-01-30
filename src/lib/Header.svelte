@@ -3,7 +3,7 @@
 </script>
 
 <header>
-	<a href="/"><img src={nahabaLogoSVG} alt="nahaba logo" width="64" /></a>
+	<a href="/"><img src={nahabaLogoSVG} alt="NAHABA band logo" width="64" /></a>
 	<nav>
 		<a href="/">HOME</a>
 		<a href="/videos">VIDEOS</a>
