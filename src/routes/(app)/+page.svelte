@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Head from '$lib/Head.svelte';
 	import TPose from '$lib/TPose.svelte';
 
 	import aTPoseGIF from '$lib/assets/gifs/a-tpose.gif';
@@ -13,8 +12,6 @@
 		document.body.style.overflowY = 'hidden';
 	});
 </script>
-
-<Head />
 
 <div class="center-container">
 	<div class="image-container">

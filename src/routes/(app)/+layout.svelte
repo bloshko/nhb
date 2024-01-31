@@ -1,7 +1,9 @@
 <script>
 	import Header from '$lib/Header.svelte';
+	import Head from '$lib/Head.svelte';
 </script>
 
+<Head />
 <Header />
 <main>
 	<slot />

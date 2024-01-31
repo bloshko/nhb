@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Head from '$lib/Head.svelte';
 	import { onMount } from 'svelte';
 
 	let src: string;
@@ -9,7 +10,8 @@
 	});
 </script>
 
-<iframe {src} title="nahaba game" />
+<Head />
+<iframe {src} title="Нахабська гра" />
 
 <style>
 	iframe {
