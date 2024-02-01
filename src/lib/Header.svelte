@@ -5,8 +5,8 @@
 <header>
 	<a href="/"><img src={nahabaLogoSVG} alt="NAHABA band logo" width="64" /></a>
 	<nav>
-		<a href="/">HOME</a>
-		<a href="/videos">VIDEOS</a>
+		<a href="/">Хоум</a>
+		<a href="/videos">Відео</a>
 	</nav>
 </header>
 
