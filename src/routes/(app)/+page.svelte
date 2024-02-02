@@ -13,6 +13,11 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Український гурт NAHABA</title>
+	<meta name="description" content="Сторінка гурту NAHABA" />
+</svelte:head>
+
 <div class="center-container">
 	<div class="image-container">
 		<img src={nahabaMainJPG} alt="Members of NAHABA band" />

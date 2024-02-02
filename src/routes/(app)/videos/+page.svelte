@@ -30,6 +30,11 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Відео</title>
+	<meta name="description" content="Подивись і послухай нахаб" />
+</svelte:head>
+
 <section>
 	{#each videos as { title, src }}
 		<YoutubeVideo {title} {src} />
