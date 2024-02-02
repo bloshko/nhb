@@ -15,7 +15,10 @@
 
 <svelte:head>
 	<title>Український гурт NAHABA</title>
-	<meta name="description" content="Сторінка гурту NAHABA" />
+	<meta
+		name="description"
+		content="NAHABA - дует який дивує кожним аспектом своєї творчості. Вони об'єднують фолькльорні мотиви та екстрім вокал, прокляття та кавери на Курган і Агрегат. Ці музиканти не бояться вразити натовп, навіть більше, налякати його."
+	/>
 </svelte:head>
 
 <div class="center-container">
