@@ -7,21 +7,29 @@
 </script>
 
 <header>
-	<a href="/"><img src={nahabaLogoSVG} alt="NAHABA band logo" width="64" /></a>
+	<a href="/"><img src={nahabaLogoSVG} alt="NAHABA band logo" /></a>
 	<nav>
 		<a href="/" class:active={$page.url.pathname === '/'}>
-			<img src={homeSVG} alt="home" height="64" />
+			<img src={homeSVG} alt="home" />
 		</a>
 		<a href="/videos" class:active={$page.url.pathname === '/videos'}>
-			<img src={videosSVG} alt="videos" height="64" />
+			<img src={videosSVG} alt="videos" />
 		</a>
 		<a href="/merch" class:active={$page.url.pathname === '/merch'}>
-			<img src={merchSVG} alt="merch" height="64" />
+			<img src={merchSVG} alt="merch" />
 		</a>
 	</nav>
 </header>
 
 <style>
+	img {
+		width: 45px;
+
+		@media (min-width: 700px) {
+			width: unset;
+			height: 64px;
+		}
+	}
 	header {
 		display: flex;
 		padding-bottom: 16px;
