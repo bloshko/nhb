@@ -57,7 +57,6 @@
 	}
 	.image-container {
 		position: relative;
-		line-height: 0;
 
 		width: 80vw;
 
