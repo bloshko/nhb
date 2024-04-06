@@ -8,6 +8,10 @@
 
 	const videos = [
 		{
+			title: 'NAHABA - SHI*',
+			src: 'https://www.youtube.com/embed/PzJMPv25JVY?si=vqt25Elnhaj5MN0H'
+		},
+		{
 			title: 'NAHABA - GLASS',
 			src: 'https://www.youtube.com/embed/iAP62Ffu3UA?si=ZBmwUD48Va4vAYQR'
 		},
