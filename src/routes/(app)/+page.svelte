@@ -94,17 +94,11 @@
 	.listen-now {
 		font-size: 18px;
 		max-height: 64px;
-		border: 1px solid #f20523;
 		color: #f20523;
 		text-transform: uppercase;
 		text-align: center;
 		max-width: 300px;
 		width: 100%;
 		z-index: 1;
-	}
-	.listen-now:hover {
-		background-color: #f20523;
-		color: black;
-		transition: all 0.5s;
 	}
 </style>
