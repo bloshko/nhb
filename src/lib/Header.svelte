@@ -46,11 +46,17 @@
 	a {
 		transition: all 0.5s;
 	}
-	a:hover {
-		transform: scale(2, 0.5);
+	@keyframes active-shift {
+		from {
+			filter: drop-shadow(3px -3px #f20523);
+		}
+		to {
+			filter: drop-shadow(3px 3px #f20523);
+		}
 	}
 	.active {
-		transform: scale(2, 0.5);
+		transform: scale(1.5, 1.5);
+		animation: 5s ease infinite alternate active-shift;
 	}
 	nav {
 		display: flex;

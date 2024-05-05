@@ -3,6 +3,7 @@
 
 	import aTPoseGIF from '$lib/assets/gifs/a-tpose.gif';
 	import oTPoseGIF from '$lib/assets/gifs/o-tpose.gif';
+	import listenNowSVG from '$lib/assets/listen_now.svg';
 	import nahabaMainJPG from '$lib/assets/nahaba_main_1x1.jpg';
 	import bloodMP4 from '$lib/assets/blood.mp4';
 
@@ -28,7 +29,9 @@
 			<source src={bloodMP4} />
 		</video>
 	</div>
-	<a class="listen-now" href="https://song.link/nahaba_glasss" target="_blank">Listen now</a>
+	<a class="listen-now" href="https://song.link/nahaba_glasss" target="_blank">
+		<img src={listenNowSVG} alt="Listen now" /></a
+	>
 </div>
 
 <div class="tpose-container">
@@ -85,11 +88,12 @@
 	}
 	img {
 		width: 100%;
+		height: 100%;
 		z-index: 2;
 	}
 	.listen-now {
 		font-size: 18px;
-		padding: 24px 32px;
+		max-height: 64px;
 		border: 1px solid #f20523;
 		color: #f20523;
 		text-transform: uppercase;
